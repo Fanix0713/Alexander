@@ -11,6 +11,6 @@ async def send_to_admin(dp):
 # Start bot using func
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-        text = "3"
+        text = "Привет,как у тебя дела?"
         await message.answer(text=text)
 
